@@ -1,0 +1,14 @@
+.WordContainer {
+  position: absolute;
+  background-color: rgba(83, 80, 102, 0.1);
+  cursor: pointer;
+  z-index: 8;
+
+  &-Highlighted {
+    border: 1px dashed #7057FF;
+  }
+
+  &-Selected {
+    border: 1px solid #7057FF;
+  }
+}

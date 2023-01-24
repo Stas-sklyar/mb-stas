@@ -1,0 +1,17 @@
+.AnnotationTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px 4px 10px;
+  height: 28px;
+  background-color: #F4F3FF;
+  border-radius: 16px;
+  font-family: "CarosSoft";
+  font-size: 14px;
+  line-height: 20px;
+
+  &-Icon {
+    margin-right: 6px;
+    transform: translateY(1px);
+  }
+}

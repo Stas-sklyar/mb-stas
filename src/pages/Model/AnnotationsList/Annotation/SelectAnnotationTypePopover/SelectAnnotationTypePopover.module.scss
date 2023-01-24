@@ -1,0 +1,23 @@
+.SelectAnnotationTypePopover {
+  &-Row {
+    margin: 0 -12px;
+    padding: 0 12px;
+    height: 36px;
+    cursor: pointer;
+    font-family: "CarosSoft";
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    overflow: hidden;
+
+    &:hover {
+      background-color: #FCFCFD;
+    }
+  }
+
+  &-Icon {
+    width: 10px;
+    margin-right: 10px;
+    transform: translateY(1px);
+  }
+}

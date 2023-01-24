@@ -1,0 +1,24 @@
+.DocumentViewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-Document {
+    position: relative;
+  }
+
+  &-Page {
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    border-radius: 10px;
+  }
+
+  &-Controls {
+    opacity: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

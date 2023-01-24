@@ -1,0 +1,21 @@
+.Header {
+  padding: 15px 20px 10px 20px;
+  border-bottom: 1px solid #F1F4FA;
+  line-height: 36px;
+
+  &-BackBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+}

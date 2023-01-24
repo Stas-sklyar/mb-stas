@@ -1,0 +1,24 @@
+.EditModelName {
+  &-Name {
+    margin-right: 30px;
+    font-style: normal;
+    font-family: "CarosSoft";
+    font-size: 17px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  &-EditIcon {
+    width: 16px;
+    height: 16px;
+    transform: translateY(3px);
+    cursor: pointer;
+  }
+
+  &-Icon {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #475467;
+  }
+}

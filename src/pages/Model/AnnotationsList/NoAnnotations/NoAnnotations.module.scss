@@ -1,0 +1,27 @@
+.NoAnnotations {
+  width: 100%;
+  height: 132px;
+  text-align: center;
+  margin-top: 40px;
+
+  &-Icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+
+  &-Title {
+    font-family: "CarosSoft";
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    margin-bottom: 4px;
+  }
+
+  &-Subtitle {
+    font-family: "CarosSoftLight";
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+  }
+}

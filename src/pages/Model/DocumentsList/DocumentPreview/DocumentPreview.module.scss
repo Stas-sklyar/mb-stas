@@ -1,0 +1,91 @@
+.DocumentPreview {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 24px;
+  width: 248px;
+  height: 225px;
+  background: #F9FAFB;
+  border: 1px solid #EAECF0;
+  border-radius: 12px;
+  cursor: pointer;
+
+  &:hover {
+    
+    & .DocumentPreview-DeleteIcon {
+      opacity: 1;
+      transition: all .2s ease;
+    }
+  }
+
+  &-Wrapper {
+    height: 225px;
+  }
+
+  &-Document {
+    margin: 0 auto 8px auto;
+    width: 94px;
+    height: 134px;
+    max-width: 100%;
+    text-align: center;
+    border: 1px solid #EAECF0;
+  }
+
+  &-FailedToLoadPDFLabel {
+    font-size: 12px;
+    line-height: 18px;
+    color: #475467;
+    padding: 5px;
+  }
+
+  &-FileName {
+    font-family: "CarosSoftLight";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #475467;
+    margin-bottom: 10px;
+  }
+
+  &-Status {
+    height: 22px;
+    line-height: 22px;
+    padding: 2px 8px;
+    background: #ECFDF3;
+    border-radius: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-family: "CarosSoftBold";
+    font-size: 12px;
+    color: #027A48;
+  }
+
+  &__Active {
+    background: #F2F0FF;
+    border: 2px solid #7057FF;
+
+    & .DocumentPreview-FileName {
+      color: #7057FF;
+      font-family: "CarosSoftBold";
+    }
+  }
+
+  &-DeleteIcon {
+    opacity: 0;
+    transition: all .2s ease;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    width: 18px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  &-Page {
+    max-width: 95px;
+    height: auto;
+  }
+}

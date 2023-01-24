@@ -1,0 +1,24 @@
+.ModelPage {
+  overflow-x: hidden;
+
+  &-Col {
+    padding: 12px 10px;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+
+    &:first-child {
+      border-right: 1px solid #F1F4FA;
+    }
+
+    &:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      background-color: #FCFCFD;
+    }
+
+    &:last-child {
+      padding: 12px 0;
+      border-left: 1px solid #F1F4FA;
+    }
+  }
+}

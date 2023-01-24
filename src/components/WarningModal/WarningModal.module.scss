@@ -1,0 +1,43 @@
+.WarningModal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(83, 80, 102, 0.3);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.Modal {
+  width: 660px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+
+  &-Title {
+    font-family: "CarosSoftBold";
+    font-size: 16px;
+    line-height: 20px;
+    color: #535066;
+    margin-bottom: 12px;
+  }
+
+  &-Content {
+    font-family: "CarosSoftBold";
+    font-size: 14px;
+    line-height: 17px;
+    color: #A7A4B7;
+    margin-bottom: 12px;
+  }
+
+  &-Btns {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

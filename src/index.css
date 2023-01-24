@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter.woff") format(woff);
+}
+
+@font-face {
+  font-family: "CarosSoft";
+  src: url("./fonts/CarosSoft.woff") format(woff);
+}
+
+@font-face {
+  font-family: "CarosSoftBold";
+  src: url("./fonts/CarosSoftBold.woff") format(woff);
+}
+
+@font-face {
+  font-family: "CarosSoftLight";
+  src: url("./fonts/CarosSoftLight.woff") format(woff);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "CarosSoft", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.ant-btn-default {
+  font-family: "Inter";
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-style: normal;
+  font-family: "CarosSoftBold";
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.ant-input {
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: "CarosSoftLight";
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.textLayer span, .textLayer br {
+  z-index: 0;
+}

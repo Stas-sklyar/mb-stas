@@ -1,0 +1,77 @@
+{
+  "HomePage": {
+    "title": "Create a new project",
+    "subtitle": "Start a new project by choosing an app.",
+    "inputLabel": "Name of the project",
+    "labelForReturnBtn": "Return",
+    "labelForCreatNewModelBtn": "Create a project",
+    "successfullyCreatedModelAlert": "New model successfully created!",
+    "errorWhileCreatingModelAlert": "An error occurred on the server while creating a new model!",
+    "shortModelNameErrorAlert": "Please enter model name (more than 3 characters)!"
+  },
+  "ModelPage": {
+    "header": {
+      "labelForTrainBtn": "Train (5 more)",
+      "labelForEditBtn": "Edit",
+      "conditionsForTrainAreNotMetWarning": "This action button is available when you did at least {{v1}} document annotations and at least {{v2}} field on each document"
+    },
+    "documentsListSection": {
+      "importDocumentTitle": "<span>Click to upload</span> or drag and drop",
+      "importDocumentSubtitle": "Only PDF"
+    },
+    "documentViewerSection": {
+      "noDocumentsTitle": "No document",
+      "noDocumentsSubtitle": "Add documents to start training",
+      "controlsLabel": "per",
+      "errorWhileLoadingPDFFile": "Failed to load PDF file.",
+      "errorWhileLoadingPreviewOfPDFFile": "Failed to load preview of PDF file."
+    },
+    "annotationsListSection": {
+      "title": "Result",
+      "changeAnnotationTypePopoverLabel": "Select annotation type",
+      "noAnnotationsTitle": "Being processed",
+      "noAnnotationsSubtitle": "Add documents to start training"
+    },
+    "createNewAnnotationWindow": {
+      "selectAnnotationLabelTitle": "Choose a label or create one.",
+      "selectAnnotationLabelInputLabel": "New label"
+    },
+    "alerts": {
+      "errorWhileGetingInfoAboutModel": "An error occurred on the server while geting info about model!",
+      "errorWhileUpdatingAnnotationType": "An error occurred on the server while updating a annotation type!",
+      "successfullyRemovedAnnotationAlert": "Annotation successfully removed!",
+      "successfullyRemovedDocumentAlert": "Document successfully removed!",
+      "errorWhileUpdatingAnnotationName": "An error occurred on the server while updating a annotation name!",
+      "successfullyUploadedPDFFileAlert": "PDF file successfully uploaded!",
+      "errorWhileUploadingPDF": "An error occurred on the server while uploading a new document!",
+      "errorWhileGetingAnnotationsList": "An error occurred on the server while geting annotations list!",
+      "errorWhileGetingAnnotationsTypes": "An error occurred on the server while geting annotations types!",
+      "errorWhileCreatingNewAnnotation": "An error occurred on the server while creating a new annotation!",
+      "errorWhileCreatingNewModel": "An error occurred on the server while creating new model!",
+      "errorWhileUploadingNotPDF": "File did not upload! You can upload only .pdf files",
+      "errorWhileUpdatingModelName": "An error occurred on the server while updating a model name!",
+      "errorWhileRemovingAnnotation": "An error occurred on the server while removing annotation!",
+      "errorWhileRemovingDocument": "An error occurred on the server while removing document!",
+      "invalidModelId": "Invalid model id!",
+      "errorWhileGetingAnnotationForDocument": "An error occurred on the server while geting annotations for document!",
+      "errorWhileGetingDocument": "An error occurred on the server while geting document!"
+    },
+    "annotationsTypes": {
+      "text": "Text",
+      "email": "Email",
+      "address": "Address",
+      "digital": "Digital",
+      "date": "Date",
+      "dateTime": "Date Time",
+      "time": "Time"
+    }
+  },
+  "shared": {
+    "spinText": "Loading...",
+    "warningModalTitle": "Warning!",
+    "documentStates": {
+      "enCourses": "En courses",
+      "online": "Online"
+    }
+  }
+}
