@@ -49,7 +49,11 @@
       "react-app",
       "react-app/jest"
     ],
-    "eslintIgnore": ["initWebsocket.js"]
+    "overrides": [
+      {
+        "files": ["initWebsocket.js"]
+      }
+    ]
   },
   "browserslist": {
     "production": [
